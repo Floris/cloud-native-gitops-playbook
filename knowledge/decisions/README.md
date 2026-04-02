@@ -14,4 +14,3 @@ Each decision should capture:
 - decision
 - consequences
 - alternatives considered
-

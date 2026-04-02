@@ -7,4 +7,3 @@ This starter intentionally keeps the workload example simple while encoding a sa
 - read-only root filesystem
 - probes and rolling strategy
 - environment overlays with Kustomize
-

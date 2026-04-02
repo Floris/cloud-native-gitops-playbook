@@ -18,4 +18,3 @@ Security issues in this repository typically include:
 - overly permissive RBAC guidance
 - insecure supply chain recommendations
 - examples that normalize secret sprawl or cluster-admin usage
-

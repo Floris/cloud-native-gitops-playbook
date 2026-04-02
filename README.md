@@ -72,4 +72,3 @@ Recommended improvements if you want to turn this into a stronger public portfol
 2. Add validation in CI for markdown, YAML, and Kubernetes schemas.
 3. Add Architecture Decision Records in [`knowledge/decisions/`](./knowledge/decisions).
 4. Add a `docs/` site generator such as MkDocs later if you want a browsable handbook.
-
