@@ -26,4 +26,3 @@ If an imperative fix is required during an incident:
 1. document the action
 2. reconcile the intended state back into Git
 3. review why the platform path was insufficient
-

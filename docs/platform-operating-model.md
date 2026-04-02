@@ -22,4 +22,3 @@ Useful responsibility boundaries include:
 - Every team gets broad cluster-admin style access.
 - Production fixes happen directly through kubectl without follow-up reconciliation.
 - Platform standards live only in slides, tickets, or tribal memory.
-

@@ -27,4 +27,3 @@ Recommended top-level patterns:
 - Favor composition with Kustomize or a consistent Helm strategy, not both everywhere without a rule.
 - Separate reusable modules from environment instantiations.
 - Do not let generated manifests become your primary authored source unless generation is tightly controlled.
-

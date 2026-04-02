@@ -17,4 +17,3 @@ This repository is intentionally opinionated. Contributions should improve opera
 - explain why the change is a better practice
 - reference at least one source for normative guidance when relevant
 - call out any assumptions or trade-offs
-

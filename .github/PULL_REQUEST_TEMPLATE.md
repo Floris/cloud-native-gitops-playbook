@@ -16,4 +16,3 @@ List the primary sources or specifications used.
 - [ ] No unsafe cluster-admin guidance introduced
 - [ ] Examples remain declarative and GitOps-compatible
 - [ ] Machine-readable knowledge files updated when needed
-

@@ -25,4 +25,3 @@ The OpenGitOps model is especially useful because it anchors GitOps in four prac
 - Clusters converge automatically to the declared target state.
 - Drift is visible and corrected or explicitly acknowledged.
 - Environment differences are intentional and minimal.
-

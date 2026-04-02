@@ -32,4 +32,3 @@ Every deployment should aim to include:
 - explicit probes
 - pinned images by digest for promotion-sensitive environments
 - minimal service account permissions
-

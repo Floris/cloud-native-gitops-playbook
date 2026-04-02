@@ -24,4 +24,3 @@ Recommended controls:
 - Keep CI outputs out of the source of truth unless they are intentionally generated artifacts.
 - Document ownership and change approval expectations.
 - Use policy checks and schema validation before merge.
-

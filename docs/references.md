@@ -9,4 +9,3 @@ Primary source material used to shape this repository:
 - Argo CD best practices: <https://argo-cd.readthedocs.io/en/stable/user-guide/best_practices/>
 
 These sources should be preferred when extending normative guidance in this repository.
-
