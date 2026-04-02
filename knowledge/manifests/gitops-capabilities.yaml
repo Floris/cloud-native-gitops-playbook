@@ -29,4 +29,3 @@ controls:
     title: Reconcile break-glass changes back into Git quickly
     control_level: recommended
     rationale: Incidents sometimes require speed, but the source of truth must be restored.
-

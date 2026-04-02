@@ -29,4 +29,3 @@ controls:
     title: Enable logs, metrics, and health probes by default
     control_level: recommended
     rationale: Platform reliability depends on consistent operational visibility.
-

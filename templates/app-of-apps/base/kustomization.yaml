@@ -3,4 +3,3 @@ kind: Kustomization
 namespace: platform-system
 resources:
   - namespace.yaml
-
