@@ -1,0 +1,32 @@
+version: 1
+owner: Floris
+domain: kubernetes-security
+source:
+  - https://kubernetes.io/docs/concepts/security/pod-security-standards/
+  - https://fluxcd.io/flux/security/best-practices/
+controls:
+  - id: k8s-pod-security
+    title: Enforce Pod Security Standards or equivalent controls
+    control_level: required
+    rationale: Prevents common insecure pod configurations from becoming defaults.
+  - id: k8s-rbac-least-privilege
+    title: Grant least-privilege RBAC and avoid cluster-admin for normal operations
+    control_level: required
+    rationale: Broad permissions magnify operational and security blast radius.
+  - id: k8s-network-policy
+    title: Define default network policy posture
+    control_level: recommended
+    rationale: East-west communication should be explicit, not assumed.
+  - id: k8s-trusted-images
+    title: Restrict workloads to trusted registries and immutable images where possible
+    control_level: recommended
+    rationale: Strengthens workload provenance and repeatability.
+  - id: k8s-service-account-boundaries
+    title: Scope service accounts to workload needs
+    control_level: required
+    rationale: Shared or over-privileged service accounts create avoidable risk.
+  - id: k8s-observability-defaults
+    title: Enable logs, metrics, and health probes by default
+    control_level: recommended
+    rationale: Platform reliability depends on consistent operational visibility.
+

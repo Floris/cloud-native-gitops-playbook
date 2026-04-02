@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Terraform / infra scratch
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Kubernetes / local tooling
+.kube/
+.cache/
+
+# Logs
+*.log
+

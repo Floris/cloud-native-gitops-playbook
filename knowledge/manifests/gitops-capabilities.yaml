@@ -1,0 +1,32 @@
+version: 1
+owner: Floris
+domain: gitops
+source:
+  - https://opengitops.dev/
+  - https://argo-cd.readthedocs.io/en/stable/user-guide/best_practices/
+controls:
+  - id: gitops-source-of-truth
+    title: Git is the source of truth
+    control_level: required
+    rationale: Desired state must be reviewable, versioned, and recoverable.
+  - id: gitops-pull-based-reconciliation
+    title: Use pull-based reconciliation from inside the cluster
+    control_level: required
+    rationale: Reduces CI credential sprawl and improves deployment security posture.
+  - id: gitops-separate-config-repo
+    title: Separate application config repositories from source repositories
+    control_level: recommended
+    rationale: Improves auditability, ownership separation, and avoids CI trigger loops.
+  - id: gitops-immutable-promotions
+    title: Promote immutable artifacts across environments
+    control_level: required
+    rationale: Reproducible promotion is safer than rebuilding per environment.
+  - id: gitops-drift-visibility
+    title: Detect and surface drift continuously
+    control_level: required
+    rationale: Silent divergence between Git and cluster state erodes trust.
+  - id: gitops-break-glass-reconciliation
+    title: Reconcile break-glass changes back into Git quickly
+    control_level: recommended
+    rationale: Incidents sometimes require speed, but the source of truth must be restored.
+

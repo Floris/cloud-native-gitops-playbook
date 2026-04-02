@@ -1,0 +1,31 @@
+version: 1
+domains:
+  - id: gitops
+    description: Declarative delivery, reconciliation, drift management, and promotion.
+  - id: kubernetes-security
+    description: Workload and namespace guardrails for production clusters.
+  - id: platform-ops
+    description: Operating model, tenancy, observability, and ownership.
+  - id: supply-chain
+    description: Build, promotion, artifact integrity, and delivery controls.
+  - id: ai-ingestion
+    description: Structure and conventions that improve AI retrieval quality.
+document_types:
+  - guide
+  - baseline
+  - template
+  - policy
+  - reference
+  - decision
+control_levels:
+  - required
+  - recommended
+  - contextual
+metadata_fields:
+  - owner
+  - domain
+  - source
+  - rationale
+  - control_level
+  - last_reviewed
+
