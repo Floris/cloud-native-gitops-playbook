@@ -1,6 +1,6 @@
 # Cloud Native GitOps Playbook
 
-An opinionated, AI-readable knowledge repository for GitOps, platform operations, and Kubernetes best practices.
+An opinionated, AI-readable knowledge repository for GitOps, platform operations, Kubernetes best practices, and shared web experience standards.
 
 This repository is designed as a professional reference point for platform engineers and ops engineers who want a clean, defensible baseline for running Kubernetes through GitOps. It combines:
 
@@ -26,6 +26,7 @@ The current baseline focuses on:
 - release and supply chain controls
 - observability and operations patterns
 - AI-ready content organization
+- shared portfolio and product website design guidance
 
 ## Repository map
 
@@ -63,6 +64,7 @@ Use this repo as:
 - a starter for internal platform standards
 - a knowledge base that AI assistants can query
 - a reference when setting up new GitOps-managed clusters or services
+- a central source of truth for shared website look and feel
 
 ## Next steps
 

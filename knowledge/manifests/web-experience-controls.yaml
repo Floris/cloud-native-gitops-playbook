@@ -1,0 +1,35 @@
+version: 1
+owner: Floris
+domain: web-experience
+source:
+  - internal-house-standard
+  - json_droppert_dev
+controls:
+  - id: web-shared-visual-baseline
+    title: Use json.droppert.dev as the default visual baseline for portfolio websites
+    control_level: required
+    rationale: Shared visual anchors create a recognizable ecosystem instead of a collection of unrelated sites.
+  - id: web-typography-pairing
+    title: Preserve Space Grotesk for interface copy and IBM Plex Mono for technical content
+    control_level: required
+    rationale: The typography pairing is a defining part of the current brand voice and technical tone.
+  - id: web-glass-surface-treatment
+    title: Prefer layered glass panels and translucent cards over flat generic containers
+    control_level: recommended
+    rationale: The panel treatment gives the sites a distinctive premium utility aesthetic.
+  - id: web-color-mood
+    title: Keep the default palette in the deep-blue to mint-green family
+    control_level: required
+    rationale: Consistent color mood is the fastest way to maintain family resemblance across sites.
+  - id: web-rounded-geometry
+    title: Use rounded panels, controls, and content containers as the default shape language
+    control_level: recommended
+    rationale: Rounded geometry supports the softer futuristic tone established by the reference site.
+  - id: web-motion-restraint
+    title: Keep motion subtle, purposeful, and secondary to readability
+    control_level: required
+    rationale: Calm interaction design fits both portfolio storytelling and utility workflows.
+  - id: web-brand-exception-documentation
+    title: Document any deliberate departure from the shared style system
+    control_level: recommended
+    rationale: Explicit exceptions prevent accidental visual drift over time.
