@@ -10,6 +10,8 @@ domains:
     description: Build, promotion, artifact integrity, and delivery controls.
   - id: ai-ingestion
     description: Structure and conventions that improve AI retrieval quality.
+  - id: web-experience
+    description: Shared design language, UI tokens, and portfolio website experience standards.
 document_types:
   - guide
   - baseline
