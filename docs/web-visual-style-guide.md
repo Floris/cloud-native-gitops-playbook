@@ -19,7 +19,7 @@ Apply it by default to:
 
 ## Source of visual truth
 
-Use `json_droppert_dev` as the primary implementation reference for:
+Use `droppert-platform/apps/json` as the primary implementation reference for:
 
 - color mood
 - typography pairing
