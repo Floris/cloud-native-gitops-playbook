@@ -33,6 +33,8 @@ The current baseline focuses on:
 - [`docs/`](./docs) contains the narrative guidance
 - [`knowledge/taxonomy.yaml`](./knowledge/taxonomy.yaml) defines the information model
 - [`knowledge/manifests/`](./knowledge/manifests) contains machine-readable best-practice controls
+- [`knowledge/decisions/`](./knowledge/decisions) contains Architecture Decision Records
+- [`clusters/`](./clusters) contains example `dev` and `prod` environment composition
 - [`templates/`](./templates) contains reusable GitOps and workload skeletons
 - [`.github/PULL_REQUEST_TEMPLATE.md`](./.github/PULL_REQUEST_TEMPLATE.md) enforces contribution quality
 
@@ -66,11 +68,14 @@ Use this repo as:
 - a reference when setting up new GitOps-managed clusters or services
 - a central source of truth for shared website look and feel
 
-## Next steps
+## Progress on next steps
 
-Recommended improvements if you want to turn this into a stronger public portfolio project:
+Recent improvements:
 
-1. Add real example environments such as `clusters/dev` and `clusters/prod`.
-2. Add validation in CI for markdown, YAML, and Kubernetes schemas.
-3. Add Architecture Decision Records in [`knowledge/decisions/`](./knowledge/decisions).
-4. Add a `docs/` site generator such as MkDocs later if you want a browsable handbook.
+1. Added example environments in [`clusters/dev`](./clusters/dev) and [`clusters/prod`](./clusters/prod).
+2. Added concrete ADRs in [`knowledge/decisions/`](./knowledge/decisions).
+3. Kept repository validation in CI and extended the repo structure to support Kubernetes manifest validation.
+
+Still a good future enhancement:
+
+1. Add a `docs/` site generator such as MkDocs if you want a browsable handbook later.
