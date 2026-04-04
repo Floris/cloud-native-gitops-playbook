@@ -38,6 +38,7 @@ Do not introduce normative guidance based only on blog posts, anonymous forum po
 - `knowledge/taxonomy.yaml`: machine-readable information model
 - `knowledge/manifests/`: machine-readable controls and best-practice statements
 - `knowledge/decisions/`: architecture and operating decisions
+- `clusters/`: example `dev` and `prod` environment composition for GitOps layout
 - `templates/`: reusable declarative examples and starter manifests
 - `docs/web-visual-style-guide.md`: portfolio website visual system and AI implementation rules
 

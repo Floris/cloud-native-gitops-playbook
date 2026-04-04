@@ -28,3 +28,22 @@ jobs:
         with:
           file_or_dir: .
           config_file: .yamllint.yaml
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v4
+
+      - name: Install kubeconform
+        shell: bash
+        run: |
+          set -euo pipefail
+          KUBECONFORM_VERSION="v0.6.7"
+          curl -sSL -o kubeconform.tar.gz "https://github.com/yannh/kubeconform/releases/download/${KUBECONFORM_VERSION}/kubeconform-linux-amd64.tar.gz"
+          tar -xzf kubeconform.tar.gz kubeconform
+          sudo mv kubeconform /usr/local/bin/kubeconform
+
+      - name: Validate rendered Kubernetes manifests
+        shell: bash
+        run: |
+          set -euo pipefail
+          kubectl kustomize clusters/dev | kubeconform -summary -strict -ignore-missing-schemas
+          kubectl kustomize clusters/prod | kubeconform -summary -strict -ignore-missing-schemas
