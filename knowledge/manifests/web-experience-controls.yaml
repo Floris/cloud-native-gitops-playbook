@@ -3,7 +3,7 @@ owner: Floris
 domain: web-experience
 source:
   - internal-house-standard
-  - json_droppert_dev
+  - droppert-platform/apps/json
 controls:
   - id: web-shared-visual-baseline
     title: Use json.droppert.dev as the default visual baseline for portfolio websites
